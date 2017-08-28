@@ -6,6 +6,10 @@ local info_ = require "modules/buildinfo/info"
 
 local m = {}
 
+function m.set_root(root)
+	git_.set_root_dir(root)
+end
+
 function m.defines()
 	return " -DBUILD_COMMIT=\\\"" .. git_.commit() .. "\\\"" ..
       " -DBUILD_VERSION=\\\"" .. git_.tag() .. "\\\"" ..
