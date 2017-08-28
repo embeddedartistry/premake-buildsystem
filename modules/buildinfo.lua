@@ -1,8 +1,10 @@
 -- Copyright © 2017 Embedded Artistry LLC.
 -- License: MIT. See LICENSE file for details.
 
-local git_ = require "modules/buildinfo/git"
-local info_ = require "modules/buildinfo/info"
+local pathOfThisFile = ...
+
+local git_ = require(pathOfThisFile.."/git")
+local info_ = require(pathOfThisFile.."/info")
 
 local m = {}
 
