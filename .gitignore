@@ -1,3 +1,6 @@
+# Generated folder
+gen/**
+
 # Object files
 *.o
 *.ko
