@@ -4,7 +4,7 @@
 
 local m = {}
 
-local ROOT = "../"
+local ROOT = "./"
 
 -- Use this function if you need to override the default
 -- build ROOT location
