@@ -10,7 +10,7 @@ endif
 ifeq ($(detected_OS), "Windows")
 	premake_BIN := premake5.exe
 else
-	premake_BIN := premake
+	premake_BIN := premake5
 endif
 
 # Specify the premake file to build. By default, we'll try to use the example.
